@@ -4,7 +4,7 @@ type Props = {};
 export default function Team({}: Props) {
   return (
     <div>
-      <div className="relative max-w-7xl pt-48 flex flex-col mx-auto justify-evenly items-center text-center md:text-left md:flex-row">
+      <div className="relative max-w-7xl pt-48 flex flex-col mx-auto justify-evenly items-center text-center  t md:flex-row">
         <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
           Advisors
         </h3>
