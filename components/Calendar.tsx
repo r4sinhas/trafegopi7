@@ -29,7 +29,19 @@ export default function Calendar({}: Props) {
                 <br />
                 <b>Milestone 2</b>
               </td>
-              <td> </td>
+              <td>
+                {/* <input
+                  style={{
+                    alignContent: "center",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    textAlign: "center",
+                  }}
+                  type="checkbox"
+                  checked
+                  className="checkbox"
+                /> */}
+              </td>
               <td className="text-center">All</td>
             </tr>
             <tr>

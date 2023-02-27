@@ -4,14 +4,14 @@ type Props = {};
 export default function Team({}: Props) {
   return (
     <div>
-      <div className="relative max-w-7xl pt-48 flex flex-col mx-auto justify-evenly items-center text-center  t md:flex-row">
-        <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <div className="h-screen/2 relative max-w-7xl pt-48 flex flex-col mx-auto justify-evenly items-center text-center  t md:flex-row">
+        <h3 className="absolute top-36 uppercase tracking-[20px] text-gray-500 text-2xl">
           Advisors
         </h3>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/mtPXQxM/la.png"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -22,10 +22,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/mtPXQxM/la.png"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -36,10 +36,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/mtPXQxM/la.png"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -50,10 +50,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/mtPXQxM/la.png"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -65,14 +65,14 @@ export default function Team({}: Props) {
           </div>
         </div>
       </div>
-      <div className="relative max-w-7xl pt-32 flex flex-col mx-auto justify-evenly items-center text-center md:text-left md:flex-row">
-        <h3 className="absolute top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <div className="h-screen/2 relative max-w-7xl pt-32 flex flex-col mx-auto justify-evenly items-center text-center md:text-left md:flex-row">
+        <h3 className="absolute bottom-12 top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
           Team
         </h3>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/cvw16r6/IMG-1114.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -83,10 +83,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/qgskXM7/diogo.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -97,10 +97,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/wQ8kRvx/goncalo.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -111,10 +111,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/6PYjkLN/joao.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
@@ -125,10 +125,10 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-56 bg-base-100">
+        <div className="card w-48 bg-base-100">
           <figure className="px-10 ">
             <img
-              src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+              src="https://i.ibb.co/B4NZNND/pedro.jpg"
               alt="Shoes"
               className="rounded-xl"
             />
