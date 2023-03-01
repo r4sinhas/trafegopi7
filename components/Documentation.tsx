@@ -10,7 +10,7 @@ export default function Documentation({}: Props) {
         </h3>
         <button style={{ fontSize: 20 }} className="btn btn-ghost">
           <a
-            href="https://github.com/PI10trafego7/Documents/blob/main/Presentations/Milestone%20One%20-%20Inception.pdf"
+            href="https://github.com/PI10trafego7/Documents/blob/main/Presentations/Milestone%20One%20-%20Inception.pdf?raw=true"
             target="_blank"
           >
             First Presentation
