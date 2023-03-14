@@ -30,67 +30,37 @@ export default function Calendar({}: Props) {
                 <b>Milestone 2</b>
               </td>
               <td>
-                {/* <input
-                  style={{
-                    alignContent: "center",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    textAlign: "center",
-                  }}
-                  type="checkbox"
-                  checked
-                  className="checkbox"
-                /> */}
+                <div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                      type="checkbox"
+                      checked
+                      className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div>{" "}
               </td>
               <td className="text-center">All</td>
             </tr>
             <tr>
-              <th>
+              <th style={{ lineHeight: 1.6 }}>
                 Start the development of the API and the required backend for
-                the platform.{" "}
+                the platform. <br></br>
+                Integrate with data from the ACTLL (Aveiro City Tech Living Lab)
+                sensors.​​<br></br>
+                Integrate with data from mobility applications (HERE, Waze).​​
               </th>
               <td>28/03/2023 </td>
-              <td> </td>
+              <td></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 3 */}
             <tr>
-              <th style={{ fontSize: 13 }}>
-                Process the data from the sensors.{" "}
-              </th>
-              <td>28/03/2023 </td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            {/* row 4 */}
-            <tr>
-              <th style={{ fontSize: 13 }}>
-                Integrate with data from mobility applications (HERE, Waze).{" "}
-              </th>
-              <td>28/03/2023</td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            <tr>
-              <th style={{ fontSize: 13 }}>Integrate with Twitter events.</th>
-              <td>28/03/2023 </td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            {/* row 6 */}
-            <tr>
-              <th style={{ fontSize: 13 }}>
-                Combine all data to generate events.{" "}
+              <th style={{ fontSize: 13, lineHeight: 1.6 }}>
+                Combine all data to generate events. <br></br>Develop the
+                interface for the analysis platform.​
               </th>
               <td>11/04/2023 </td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            <tr>
-              <th style={{ fontSize: 13 }}>
-                Develop the interface for the analysis platform.{" "}
-              </th>
-              <td>11/04/2023</td>
               <td> </td>
               <td className="text-center">All</td>
             </tr>
@@ -98,8 +68,6 @@ export default function Calendar({}: Props) {
               <th style={{ fontSize: 13 }}>Prototype, mid-term presentation</th>
               <td>
                 11/04/2023
-                <br />
-                12/04/2023
                 <br />
                 <b>Milestone 3 </b>
               </td>
@@ -118,25 +86,15 @@ export default function Calendar({}: Props) {
             </tr>
             {/* row 10 */}
             <tr>
-              <th style={{ fontSize: 13 }}>
-                Combine all data to generate events.{" "}
+              <th style={{ fontSize: 13, lineHeight: 1.6 }}>
+                Connect the entire system to the ACTLL infrastructure.​​
+                <br></br>
+                Write the documentation.​
               </th>
-              <td>11/04/2023 </td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            <tr>
-              <th>Connect the entire system to the OpenLab infrastructure. </th>
-              <td>23/05/2023 </td>
-              <td> </td>
-              <td className="text-center">All</td>
-            </tr>
-            <tr>
-              <th style={{ fontSize: 13 }}>Write the documentation. </th>
               <td>23/05/2023</td>
               <td> </td>
               <td className="text-center">All</td>
-            </tr>{" "}
+            </tr>
             {/* row 9 */}
             <tr>
               <th style={{ fontSize: 13 }}>

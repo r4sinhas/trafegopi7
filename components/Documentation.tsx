@@ -16,6 +16,14 @@ export default function Documentation({}: Props) {
             First Presentation
           </a>
         </button>
+        <button style={{ fontSize: 20 }} className="btn btn-ghost">
+          <a
+            href="https://github.com/PI10trafego7/Documents/blob/main/Presentations/M2_-_Elaboration_Presentation.pdf?raw=true"
+            target="_blank"
+          >
+            Second Presentation
+          </a>
+        </button>
       </div>
     </div>
   );
