@@ -8,7 +8,7 @@ export default function Team({}: Props) {
         <h3 className="absolute top-36 uppercase tracking-[20px] text-gray-500 text-2xl">
           Advisors
         </h3>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/mtPXQxM/la.png"
@@ -22,7 +22,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/mtPXQxM/la.png"
@@ -36,7 +36,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/mtPXQxM/la.png"
@@ -50,7 +50,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/mtPXQxM/la.png"
@@ -69,7 +69,7 @@ export default function Team({}: Props) {
         <h3 className="absolute bottom-12 top-4 uppercase tracking-[20px] text-gray-500 text-2xl">
           Team
         </h3>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/cvw16r6/IMG-1114.jpg"
@@ -83,7 +83,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/qgskXM7/diogo.jpg"
@@ -97,7 +97,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/wQ8kRvx/goncalo.jpg"
@@ -111,7 +111,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/6PYjkLN/joao.jpg"
@@ -125,7 +125,7 @@ export default function Team({}: Props) {
             </h2>
           </div>
         </div>
-        <div className="card w-48 bg-base-100">
+        <div className="card w-48 ">
           <figure className="px-10 ">
             <img
               src="https://i.ibb.co/B4NZNND/pedro.jpg"

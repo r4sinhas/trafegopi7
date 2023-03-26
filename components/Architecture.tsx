@@ -3,8 +3,17 @@ type Props = {};
 
 export default function Architecture({}: Props) {
   return (
-    <div className="h-screen flex items-center justify-center text-center overflow-hidden text-7xl">
-      <p style={{ fontSize: 25, padding: 10 }}>Futuramente..</p>
+    <div className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+      {" "}
+      <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-500 text-2xl">
+        Architechture
+      </h3>
+      <div className="hero-content flex-col lg:flex-row pt-44">
+        <img
+          src="https://i.ibb.co/FHFX055/Archt-Diagram-drawio.png"
+          className=""
+        />
+      </div>
     </div>
   );
 }

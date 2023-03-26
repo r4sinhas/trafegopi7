@@ -10,7 +10,7 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll">
+    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll bg-slate-700">
       <Head>
         <title>Safe Roads</title>
       </Head>

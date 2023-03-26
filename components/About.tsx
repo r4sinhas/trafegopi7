@@ -6,7 +6,7 @@ export default function About({}: Props) {
   return (
     <div className="h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
       {" "}
-      <h3 className="absolute top-28  uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-28 uppercase tracking-[20px] text-gray-500 text-2xl">
         About
       </h3>
       <motion.img
@@ -14,7 +14,7 @@ export default function About({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
+        src="https://scwcontent.affino.com/AcuCustom/Sitename/DAM/031/Continental3_Intelligent_Intersection_smart_cities_PR_rt.jpg"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-96 md:h-95 xl:w-[500px] xl:h-[300px]"
       />
       <div className="space-y-10 px-0 md:px-10">
