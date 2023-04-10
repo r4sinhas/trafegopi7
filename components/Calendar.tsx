@@ -95,8 +95,8 @@ export default function Calendar({}: Props) {
             {/* row 9 */}
             <tr>
               <th style={{ fontSize: 13 }}>
-                Implement Machine Learning to analyse unusual periods in the
-                city.
+                Implement Machine Learning model to predict traffic flow. <br/>
+                Train YOLOv8 models to detect other kind of events.
               </th>
               <td>02/05/2023</td>
               <td></td>
