@@ -5,7 +5,7 @@ export default function Calendar({}: Props) {
   return (
     <div className="relative flex items-center justify-center text-center overflow-hidden text-7xl pt-48 max-h-none pb-20">
       <h3 className="absolute top-28 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Calendar
+        &nbsp;Calendar
       </h3>
       <div className=" overflow-y-auto ">
         <table className="table w-full" style={{ fontSize: 12 }}>
@@ -25,8 +25,7 @@ export default function Calendar({}: Props) {
                 Define the architectures and frameworks to be used
               </th>
               <td>
-                14/03/2023
-                <br />
+                14/03/2023<br/>
                 <b>Milestone 2</b>
               </td>
               <td>
@@ -38,7 +37,7 @@ export default function Calendar({}: Props) {
                       className="checkbox checkbox-success"
                     />
                   </label>
-                </div>{" "}
+                </div>
               </td>
               <td className="text-center">All</td>
             </tr>
@@ -50,8 +49,18 @@ export default function Calendar({}: Props) {
                 sensors.​​<br></br>
                 Integrate with data from mobility applications (HERE, Waze).​​
               </th>
-              <td>28/03/2023 </td>
-              <td></td>
+              <td>28/03/2023</td>
+              <td>
+                <div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                        type="checkbox"
+                        checked
+                        className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div>
+              </td>
               <td className="text-center">All</td>
             </tr>
             {/* row 3 */}
@@ -60,16 +69,25 @@ export default function Calendar({}: Props) {
                 Combine all data to generate events. <br></br>Develop the
                 interface for the analysis platform.​
               </th>
-              <td>11/04/2023 </td>
-              <td> </td>
+              <td>11/04/2023</td>
+              <td>
+                <div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                        type="checkbox"
+                        checked
+                        className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div>
+              </td>
               <td className="text-center">All</td>
             </tr>
             <tr className="hover">
               <th style={{ fontSize: 13 }}>Prototype, mid-term presentation</th>
               <td>
-                11/04/2023
-                <br />
-                <b>Milestone 3 </b>
+                11/04/2023<br/>
+                <b>Milestone 3</b>
               </td>
               <td> </td>
               <td className="text-center">All</td>
@@ -81,7 +99,7 @@ export default function Calendar({}: Props) {
                 city.
               </th>
               <td>02/05/2023</td>
-              <td> </td>
+              <td></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 10 */}
@@ -92,7 +110,7 @@ export default function Calendar({}: Props) {
                 Write the documentation.​
               </th>
               <td>23/05/2023</td>
-              <td> </td>
+              <td></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 9 */}
@@ -101,15 +119,15 @@ export default function Calendar({}: Props) {
                 Submit technical report (final version) <br />
                 Demo and poster for students@deti & video
               </th>
-              <td>30/05/2023 </td>
-              <td> </td>
+              <td>30/05/2023</td>
+              <td></td>
               <td className="text-center">All</td>
             </tr>
             <tr className="hover">
               <th style={{ fontSize: 13 }}>Final Project Presentation</th>
               <td>
-                06/06/2023 <br />
-                <b>Milestone 4 </b>
+                06/06/2023<br/>
+                <b>Milestone 4</b>
               </td>
               <td> </td>
               <td className="text-center">All</td>

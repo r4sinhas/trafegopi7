@@ -43,7 +43,7 @@ export default function Header({}: Props) {
         <Link href="#Team">
           <button className="btn btn-ghost">Team</button>
         </Link>
-        <Link href="https://github.com/PI10trafego7" target="_blank">
+        <Link href="https://github.com/ATCLL-Safe-Roads" target="_blank">
           <button className="btn btn-ghost">Git Repository</button>
         </Link>
       </motion.div>
