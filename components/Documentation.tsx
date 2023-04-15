@@ -24,6 +24,14 @@ export default function Documentation({}: Props) {
             M2 - Elaboration Presentation
           </a>
         </button>
+        <button style={{ fontSize: 20 }} className="btn btn-ghost">
+          <a
+            href="https://github.com/ATCLL-Safe-Roads/Documents/blob/main/Presentations/M3%20-%20Construction%20Presentation.pdf?raw=true"
+            target="_blank"
+          >
+            M3 - Construction Presentation
+          </a>
+        </button>
       </div>
     </div>
   );
