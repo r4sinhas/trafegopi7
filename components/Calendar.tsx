@@ -89,7 +89,15 @@ export default function Calendar({}: Props) {
                 11/04/2023<br/>
                 <b>Milestone 3</b>
               </td>
-              <td> </td>
+              <td> <div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                        type="checkbox"
+                        checked
+                        className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 9 */}
