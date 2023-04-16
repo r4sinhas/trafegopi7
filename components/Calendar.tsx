@@ -105,7 +105,7 @@ export default function Calendar({}: Props) {
               <th style={{ fontSize: 13 }}>
                 Implement Machine Learning model to predict traffic flow. <br/>
                 Train YOLOv8 models to detect other kind of events. <br />
-                All main frone-end features implemented.
+                All main frontend features implemented.
               </th>
               <td>02/05/2023</td>
               <td></td>

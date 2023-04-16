@@ -10,7 +10,7 @@ export default function Architecture({}: Props) {
       </h3>
       <div className="hero-content flex-col lg:flex-row pt-44">
         <img
-          src="https://i.ibb.co/mvpbhFF/Archt-Diagram-drawio.png"
+          src="https://i.ibb.co/tzwRWRb/Archt-Diagram-drawio.png"
           className=""
         />
       </div>
