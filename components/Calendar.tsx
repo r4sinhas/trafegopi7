@@ -108,7 +108,15 @@ export default function Calendar({}: Props) {
                 All main frontend features implemented.
               </th>
               <td>02/05/2023</td>
-              <td></td>
+              <td><div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                      type="checkbox"
+                      checked
+                      className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 10 */}
@@ -119,7 +127,15 @@ export default function Calendar({}: Props) {
                 Write the documentation.​
               </th>
               <td>23/05/2023</td>
-              <td></td>
+              <td><div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                      type="checkbox"
+                      checked
+                      className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div></td>
               <td className="text-center">All</td>
             </tr>
             {/* row 9 */}
