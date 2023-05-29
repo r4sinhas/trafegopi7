@@ -19,7 +19,7 @@ export default function Header({}: Props) {
         <Link href="#Home">
 
             <img  
-            src="images/team/logo.png"
+            src="images/team/logo2-removebg-preview.png"
             alt="Pedro"
             className="rounded-xl"
             style={{ width: 100, height: 100 }}
