@@ -10,7 +10,7 @@ import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-white h-screen snap-y snap-mandatory overflow-scroll bg-slate-700">
+    <div className="text-white h-screen overflow-scroll bg-slate-700">
       <Head>
         <title>Safe Roads</title>
       </Head>
@@ -18,32 +18,32 @@ const Home: NextPage = () => {
       {/* Header */}
       <Header />
       {/* Slogan */}
-      <section id="Home" className="snap-start">
+      <section id="Home">
         <Slogan />
       </section>
 
       {/* About */}
-      <section id="About" className="snap-center">
+      <section id="About">
         <About />
       </section>
 
       {/* Architecture */}
-      <section id="Architecture" className="snap-center">
+      <section id="Architecture">
         <Architecture />
       </section>
 
       {/* Calendar */}
-      <section id="Calendar" className=" snap-start">
+      <section id="Calendar">
         <Calendar />
       </section>
 
       {/* Documentation */}
-      <section id="Documentation" className="snap-center">
+      <section id="Documentation">
         <Documentation />
       </section>
 
       {/* Team */}
-      <section id="Team" className=" snap-end">
+      <section id="Team">
         <Team />
       </section>
     </div>
