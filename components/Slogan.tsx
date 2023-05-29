@@ -1,5 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+
 type Props = {};
 
 export default function Slogan({}: Props) {
@@ -9,19 +10,22 @@ export default function Slogan({}: Props) {
     delaySpeed: 1000,
   });
 
+  const videoId = "dLF7BGfC1pA"; // Replace with the extracted video ID
+
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img
-          src="https://media.gettyimages.com/id/898172236/pt/foto/artificial-intelligence-of-deep-learning.jpg?s=612x612&w=0&k=20&c=o7yp33qFp-7l22ni6Ejr3miyPPKB49ifJfvx1lNgBXI="
-          className="max-w-md rounded-lg shadow-2xl"
-        />
         <div>
-          <div className="flex flex-col items-center justify-center text-center overflow-hidden text-5xl">
-            <h6>
-              <span>{text}</span>
-              <Cursor />
-            </h6>
+          <div className="flex flex-col items-center justify-center text-center overflow-hidden text-5xl mt-24">
+            <iframe
+              width="1080"
+              height="600"
+              src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>

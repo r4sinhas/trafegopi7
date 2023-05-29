@@ -145,7 +145,15 @@ export default function Calendar({}: Props) {
                 Demo and poster for students@deti & video
               </th>
               <td>30/05/2023</td>
-              <td></td>
+              <td> <div className="form-control items-center">
+                  <label className="cursor-pointer label">
+                    <input
+                        type="checkbox"
+                        checked
+                        className="checkbox checkbox-success"
+                    />
+                  </label>
+                </div></td>
               <td className="text-center">All</td>
             </tr>
             <tr className="hover">
