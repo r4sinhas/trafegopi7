@@ -86,7 +86,7 @@ export default function Documentation({}: Props) {
                   href="https://github.com/ATCLL-Safe-Roads/Documents/blob/main/IEEE_Abstract.pdf?raw=true"
                   target="_blank"
                 >
-                  IEE - Abstract
+                  IEEE - Abstract
                 </a>
               </button>
             </div>
